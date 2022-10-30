@@ -4,22 +4,30 @@
     position: relative;
 }
 .lautaroimg{
-    width:50%;
-    height: 50%;
+    width:25%;
+    height: 25%;
     position: relative;
+    margin-top: 5vh;
     background-size: cover;
     background-position: center;
     object-fit: cover;
     border-radius: 900px;
 }
+.hero{
+    position: relative;
+    z-index: 1;
+}
 @media screen and (max-width: 1040px) {
     .lautaroimgdiv{
         display: flex;
+        position: relative;
         justify-content: right;
         margin-top: 1vh;
         padding-right: 1vh;
+        position: relative;
     }
     .lautaroimg{
+        position: relative;
         height:50%;
         width:50%
     }
