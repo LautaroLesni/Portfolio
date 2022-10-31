@@ -5,12 +5,17 @@
   padding: 0;
   margin: 0;
 }
+body{
+  background: rgb(255,255,255);
+  background: linear-gradient(173deg, rgba(255,255,255,0.5) 0%, rgba(184,98,0,0.5) 100%);
+}
 a{
   text-decoration: none;
 }
 li{
   list-style-type: none;
 }
+
 
 .button-62 {
   background: linear-gradient(to bottom right, #e55e0a, #FF9A5A);

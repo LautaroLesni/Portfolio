@@ -9,6 +9,23 @@ const Home = () => {
             <Intro/>
             <h3>Si estas leyendo esto es porque mi portfolio esta en proceso.
                 Dentro de muy poco voy a tenerlo listo para que lo veas!</h3>
+                <h3>Si estas leyendo esto es porque mi portfolio esta en proceso.
+                Dentro de muy poco voy a tenerlo listo para que lo veas!</h3>
+                <h3>Si estas leyendo esto es porque mi portfolio esta en proceso.
+                Dentro de muy poco voy a tenerlo listo para que lo veas!</h3>
+                <h3>Si estas leyendo esto es porque mi portfolio esta en proceso.
+                Dentro de muy poco voy a tenerlo listo para que lo veas!</h3>
+                <h3>Si estas leyendo esto es porque mi portfolio esta en proceso.
+                Dentro de muy poco voy a tenerlo listo para que lo veas!</h3>
+                <h3>Si estas leyendo esto es porque mi portfolio esta en proceso.
+                Dentro de muy poco voy a tenerlo listo para que lo veas!</h3>
+                <h3>Si estas leyendo esto es porque mi portfolio esta en proceso.
+                Dentro de muy poco voy a tenerlo listo para que lo veas!</h3>
+                <h3>Si estas leyendo esto es porque mi portfolio esta en proceso.
+                Dentro de muy poco voy a tenerlo listo para que lo veas!</h3>
+                <h3>Si estas leyendo esto es porque mi portfolio esta en proceso.
+                Dentro de muy poco voy a tenerlo listo para que lo veas!</h3>
+                
         </div>
     )
 }
