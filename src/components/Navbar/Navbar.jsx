@@ -3,13 +3,17 @@ import './Navbar.css'
 import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { useState } from "react";
+import { motion } from 'framer-motion'
 
 const NavBar = () => {
 const [hamburger, setHamburguer] = useState(false)
 const hamburgerHandler = () => setHamburguer(!hamburger)
 
     return (
-        <div className={"header"}>
+        <motion.div className={"header"}
+        initial={{y:-100}}
+        animate={{y:0}}
+        transition={{delay:1}}>
         <Link to='/'><h1>Portfolio</h1></Link>
             <ul className={hamburger ? "nav-menu active" : "nav-menu"}>
                 <li>
@@ -30,7 +34,7 @@ const hamburgerHandler = () => setHamburguer(!hamburger)
                 <FaBars size={30} style={{color: "rgb(218, 95, 0)"}}/>
                 }
             </div>
-        </div>
+        </motion.div>
     )
 }
 
