@@ -70,11 +70,18 @@
     background: brown
     }
 .buttons{
-        width: 55%;
+        display: none;
+        width: 57%;
         display: flex;
         justify-content: center;
         margin-top: 10px;
     }
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
     @media screen and (max-width: 1600px) {
         .lautaroimg{
             width:35%;
@@ -175,7 +182,9 @@
         font-size: 25px;
         color: grey;
     }
-
+.buttons{
+    display: initial;
+}
 }
 @media screen and (max-width: 600px) {
     .content{
