@@ -35,15 +35,27 @@
 .knowme {
     display: flex;
     justify-content: center;
-    background-color: aqua;
     top: -150%;
     left: 35%;
     font-size: 50px;
+}
+.aboutmobile{
+    display: none;
 }
 
 @media screen and (max-width: 1600px) {}
 
 @media screen and (max-width: 1040px) {
+    .aboutmobile{
+        display:initial;
+        position: absolute;
+        width:100%;
+        top:110%;
+        left:0%
+    }
+    .aboutPC{
+        display: none;
+    }
     .knowme {
         display: flex;
         justify-content: center;

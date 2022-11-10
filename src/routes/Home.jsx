@@ -27,7 +27,9 @@ const Home = () => {
         <Navbar />
         </motion.div>
         <Intro />
+        <div className="aboutPC">
         <About />
+        </div>
             </div>
 
         </div>
