@@ -7,18 +7,14 @@ import { motion } from 'framer-motion'
 
 const NavBar = () => {
 const [hamburger, setHamburguer] = useState(false)
-const [animation, setAnimation] = useState(true)
+/* const [animation, setAnimation] = useState(true) */
 const hamburgerHandler = () => setHamburguer(!hamburger)
-const animationHandler = () => setAnimation(false)
+/* const animationHandler = () => setAnimation(false) */
 
     return (
-        <motion.div className={"header"}
-        initial={{y:-100}}
-        animate={{y:0}}
-        transition={{delay:1}}
-        viewport={{once: true}}>
+        <motion.div className={"header"}>
         <Link to='/'><h1>Portfolio</h1></Link>
-            <ul onClick={animationHandler} className={hamburger ? "nav-menu active" : "nav-menu"}>
+            <ul className={hamburger ? "nav-menu active" : "nav-menu"}>
                 <li>
             <Link to='/'><h4>Home</h4></Link>
                 </li>

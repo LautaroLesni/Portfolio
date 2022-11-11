@@ -57,18 +57,6 @@
     height: 70px;
     top:-10%
 }
-.row{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.barra{
-    display: inline-block;
-    margin: 10px;
-    width: 35%;
-    height: 2px;
-    background: brown
-    }
 .buttons{
         display: none;
         width: 57%;
@@ -82,6 +70,21 @@
     align-items: center;
     height: 100vh;
 }
+
+.quoteDIV{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    width:90%;
+    text-align: center;
+}
+.quoteLauti{
+font-size: 1.5rem;
+font-weight: 300;
+background-color: #e1d0bb;
+width:fit-content;
+}
+
     @media screen and (max-width: 1600px) {
         .lautaroimg{
             width:35%;
@@ -91,6 +94,16 @@
         .name{
             left:45%
         }
+        .quoteDIV{
+            width:60%;
+            margin-left: 5%;
+        }
+        .quoteLauti{
+            font-size: 1.3rem;
+            font-weight: 300;
+            background-color: #e1d0bb;
+            width:fit-content;
+            }
     }
 @media screen and (max-width: 1040px) {
     .content{
@@ -144,48 +157,18 @@
         text-align: center;
         height: 70px;
     }
-    .knowme{
-        margin-top: 30px;
-    }
-    .knowme{
-        display: flex;
-        justify-content: center;
-        color:rgb(218, 95, 0);
-        font-size: 33px;
-        font-weight: 500;
 
-    }
-    .lildescription{
-        background-color: rgb(218, 95, 0, 0.5);
-        margin: 10px;
-        border-radius: 40px;
-        padding: 15px;
-        border: 1px solid rgb(115, 113, 108);
-    }
 
-    .lildescription p{
-        color: black;
-    }
-    .barra{
-    display: inline-block;
-    margin-left: 1rem;
-    width: 20%;
-    height: 2px;
-    background: brown
-    }
-    .whoami{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    .whoami h1{
-        font-size: 25px;
-        color: grey;
-    }
 .buttons{
     display: initial;
 }
+.quoteDIV{
+    margin-top: 1rem;
 }
+}
+
+
+
 @media screen and (max-width: 600px) {
     .content{
         position: relative;
@@ -240,6 +223,16 @@
         display: flex;
         justify-content: center;
     }
+    .quoteDIV{
+        width:100%;
+        margin-left: 0px;
+    }
+    .quoteLauti{
+        font-size: 1.2rem;
+        margin-left:5%;
+        margin-right:5%;
+        margin-top: 10%;
+    }
 }
 @media screen and (max-width: 374px) {
     .lautaroimgdiv{
@@ -269,15 +262,6 @@
     }
     .name h3{
     display:none;
-    }
-    .knowme{
-        display: flex;
-        justify-content: center;
-        color:rgb(218, 95, 0);
-        font-size: 33px;
-        font-weight: 500;
-        text-shadow: 0px 2px 2px black;
-        text-align: center;
     }
     .buttons{
         width: 100%;
