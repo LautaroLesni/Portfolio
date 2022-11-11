@@ -1,17 +1,65 @@
 .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 60%;
+    margin: 100px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .barra {
-    display: inline-block;
     margin: 10px;
     width: 35%;
     height: 2px;
-    background: brown
+    background: rgb(255, 255, 255);
+    background-color: white;
+    color: white;
 }
-
+.barra2{
+    width: 20%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    background-color: white;
+    color: white;
+}
+.contenedorwhoami{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+}
+.technologies{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.technologies img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.whoami{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 0px;
+}
+.whoami h1{
+    font-size: 1.6rem;
+}
+.whoamiIMGDIV{
+width: 70%;
+background-color: #e1d0bb;
+}
+.whoamiIMGDIV img{
+height: 100%;
+width:100%;
+}
 .buttons {
     display: none;
     width: 57%;
@@ -28,24 +76,61 @@
 }
 
 .conocemediv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
-    top: 150%
+    top: 110%;
 }
 
 .knowme {
-    display: flex;
-    justify-content: center;
-    top: -150%;
-    left: 35%;
+    text-align: center;
     font-size: 50px;
+    font-weight: 500;
+    color: rgb(251, 251, 251);
+
+}
+.knowmeDIV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1d0bb;
+    height: 200px;
+    width:100%;
 }
 .aboutmobile{
     display: none;
 }
+.lildescription{
+    margin: 20px 40px;
+    color: #9d9081
+}
+.lildescription h2{
+    margin: 40px 0px;
+    font-weight: 500;
+    text-align: center;
+}
 
-@media screen and (max-width: 1600px) {}
+@media screen and (max-width: 1600px) {
+}
 
 @media screen and (max-width: 1040px) {
+    .row{
+        flex-direction: column;
+        width: 60%;
+        height: 50%;
+    }
+    .whoamiIMGDIV{
+        width:100%;
+        height: 100%;
+    }
+    .whoamiIMGDIV img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+    }
     .aboutmobile{
         display:initial;
         position: absolute;
@@ -56,29 +141,23 @@
     .aboutPC{
         display: none;
     }
+    .knowmeDIV{
+        height:150px
+    }
     .knowme {
         display: flex;
         justify-content: center;
-        color: rgb(218, 95, 0);
+        color: rgb(251, 251, 251);
         font-size: 33px;
         font-weight: 500;
     }
-    .lildescription {
-        background-color: rgb(218, 95, 0, 0.5);
-        margin: 10px;
-        border-radius: 40px;
-        padding: 15px;
-        border: 1px solid rgb(115, 113, 108);
-    }
-    .lildescription p {
-        color: black;
-    }
+
     .barra {
         display: inline-block;
         margin-left: 1rem;
         width: 20%;
         height: 2px;
-        background: brown
+        background: rgb(255, 255, 255)
     }
     .whoami {
         display: flex;
@@ -87,13 +166,16 @@
     }
     .whoami h1 {
         font-size: 25px;
-        color: grey;
+        color: rgb(0, 0, 0);
     }
     .buttons {
         display: initial;
     }
     .conocemediv {
         top: 110%
+    }
+    .lildescription p{
+        text-align: left;
     }
 }
 
