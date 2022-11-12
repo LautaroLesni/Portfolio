@@ -2,6 +2,7 @@ import React from "react";
 import './About.css'
 import { motion } from "framer-motion";
 import relampago from '../../assets/mern2.png'
+import { Link } from 'react-router-dom'
 
 const About = () => {
     return (
@@ -33,6 +34,8 @@ const About = () => {
                     </div>
                     <div className="lildescription">
                         <p>Mi nombre es Lautaro Lesniewicz y soy un programador Full Stack de Buenos Aires, Argentina. Empecé a estudiar programación porque desde chico siempre me gustó crear cosas y aprender el funcionamiento de las mismas.
+                            <br />
+                            <br />
                             Soy una persona que ama la tecnología desde muy temprana edad, amo los retos y soy alguien que siempre busca algo nuevo que crear y hacer, me encanta formar parte de grandes innovaciones en los proyectos que trabajo, 
                             al mismo tiempo que disfruto del trabajo en equipo y aprender de mis compañeros.
                             <br />
@@ -55,7 +58,10 @@ const About = () => {
                         <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest"/>
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop"/>
                         </div>
-                        <h2>¿Te gustaría saber más?</h2>
+                        <div className="botonesAbout">
+                        <Link to='/About' className="botonAbout">Saber más</Link>
+                        <Link to='/Contact' className="botonAbout">Contactame!</Link>
+                        </div>
                     </div>
                 </div>
             </motion.div>
