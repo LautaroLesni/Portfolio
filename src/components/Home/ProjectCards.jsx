@@ -21,8 +21,8 @@ const ProjectCards = ({name, img, description, github, deploy, technologies}) =>
                 </ul>
                 <p>{description}</p>
                 <div className={s.projecticonsDIV}>
-                <a href={github}><img className={s.projecticons} src={githubicon} alt="github" /></a>
-                <a href={deploy}><img className={s.projecticons} src={linkicon} alt='link'/></a>
+                <a href={github} target='_blank' rel="noreferrer noopener"><img className={s.projecticons} src={githubicon} alt="github" /></a>
+                <a href={deploy} target='_blank' rel="noreferrer noopener"><img className={s.projecticons} src={linkicon} alt='link'/></a>
                 </div>
             </div>
         </motion.div>
