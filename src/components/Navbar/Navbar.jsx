@@ -13,7 +13,7 @@ const hamburgerHandler = () => setHamburguer(!hamburger)
 
     return (
         <motion.div className={"header"}>
-        <Link to='/'><h1>Portfolio</h1></Link>
+        <Link to='/'><h1>{'< Portfolio />'}</h1></Link>
             <ul className={hamburger ? "nav-menu active" : "nav-menu"}>
                 <li>
             <Link to='/'><h4>Home</h4></Link>
