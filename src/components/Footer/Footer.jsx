@@ -15,9 +15,9 @@ const Footer = () => {
             <h2>¿Te gustaría contactarme?</h2>
             </div>
     <ul className={s.iconsDIV}>
-        <li><VscMail size={60} style={{color: "rgb(224, 204, 188)"}}/></li>
-        <li><GoMarkGithub size={60} style={{color: "rgb(224, 204, 188)"}}/></li>
-        <li><AiFillLinkedin size={60} style={{color: "rgb(224, 204, 188)"}}/></li>
+        <a href="mailto:lautarolesniewicz@gmail.com"><li><VscMail size={60} style={{color: "rgb(224, 204, 188)"}}/></li></a>
+        <a href='https://github.com/LautaroLesni' target='_blank' rel="noreferrer noopener"><li><GoMarkGithub size={60} style={{color: "rgb(224, 204, 188)"}}/></li></a>
+        <a href='https://www.linkedin.com/in/lautaro-lesniewicz-a50062226/' target='_blank' rel="noreferrer noopener"><li><AiFillLinkedin size={60} style={{color: "rgb(224, 204, 188)"}}/></li></a>
     </ul>
         <div className={s.developedby}>
         <h3>Developed & Built by Lautaro Lesniewicz</h3>
