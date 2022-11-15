@@ -3,7 +3,6 @@ import lautaroimg from '../../assets/Lautaro1.png'
 /* import { Link } from "react-router-dom"; */
 import './Intro.css'
 import { motion } from 'framer-motion'
-import About from './About'
 
 const Intro = () => {
 

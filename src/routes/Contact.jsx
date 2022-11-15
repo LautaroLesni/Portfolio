@@ -1,11 +1,14 @@
 import React from "react"
 import Navbar from '../components/Navbar/Navbar'
+import underconstruction from '../assets/underconstruction2.png'
 
 const Contact = () =>{
     return (
         <div>
             <Navbar />
-            <h1>Contact</h1>
+            <div className="enconstruccionDIV">
+            <img src={underconstruction} alt='underconstruction'/>
+            </div>
         </div>
     )
 }
