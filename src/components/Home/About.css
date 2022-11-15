@@ -11,8 +11,8 @@
 }
 
 .barra {
-    margin: 10px;
-    width: 35%;
+    margin: 10px 50px;
+    width: 20%;
     height: 2px;
     background: rgb(255, 255, 255);
     background-color: white;
@@ -76,11 +76,13 @@ width:100%;
 }
 
 .conocemediv {
+    margin-top: 200px;
     width: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
+    position: relative;
     top: 110%;
 }
 
@@ -99,9 +101,7 @@ width:100%;
     height: 200px;
     width:100%;
 }
-.aboutmobile{
-    display: none;
-}
+
 .lildescription{
     margin: 20px 40px;
     color: #9d9081
@@ -157,16 +157,7 @@ width:100%;
         object-fit: cover;
         border-radius: 20px 20px 0px 0px;
     }
-    .aboutmobile{
-        display:initial;
-        position: absolute;
-        width:100%;
-        top:110%;
-        left:0%
-    }
-    .aboutPC{
-        display: none;
-    }
+
     .knowmeDIV{
         height:150px
     }
@@ -198,7 +189,7 @@ width:100%;
         display: initial;
     }
     .conocemediv {
-        top: 110%
+        margin-top: 100px;
     }
     .lildescription p{
         text-align: left;

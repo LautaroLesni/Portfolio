@@ -2,23 +2,15 @@ import React from "react";
 import Navbar from '../components/Navbar/Navbar'
 import Intro from '../components/Home/Intro'
 import About from '../components/Home/About'
+import Projects from '../components/Home/Projects'
+import Footer from '../components/Footer/Footer'
 /* import { Oval } from 'react-loader-spinner'
 import { useState, useEffect } from "react"; */
 import { motion } from "framer-motion";
 
 const Home = () => {
-/*     const [loading, setLoading] = useState(true)
-
-    useEffect(() => {
-        setLoading(true)
-        setTimeout(() => {
-            setLoading(false);
-        },3000)
-    }, []) */
-
     return (
         <div>
-          <div>
             <motion.div
         initial={{y:-100}}
         animate={{y:0}}
@@ -27,11 +19,9 @@ const Home = () => {
         <Navbar />
         </motion.div>
         <Intro />
-        <div className="aboutPC">
         <About />
-        </div>
-            </div>
-
+           <Projects />
+           <Footer />
         </div>
 
     )

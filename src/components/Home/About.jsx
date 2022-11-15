@@ -60,7 +60,7 @@ const About = () => {
                         </div>
                         <div className="botonesAbout">
                         <Link to='/About' className="botonAbout">Saber más</Link>
-                        <Link to='/Contact' className="botonAbout">Contactame!</Link>
+                        <Link to='/Contact' className="botonAbout">Ver mi CV!</Link>
                         </div>
                     </div>
                 </div>

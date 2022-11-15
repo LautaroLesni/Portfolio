@@ -1,0 +1,25 @@
+.projectsDIV{
+width: 100%;
+}
+.alignproyects{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.projectscardsDIV{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+}
+@media screen and (max-width: 1600px) {
+    .projectscardsDIV{
+        width:100%
+    }
+}
+@media screen and (max-width:600px){
+    .projectscardsDIV{
+        width:90%
+    }
+}
