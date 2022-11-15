@@ -3,7 +3,6 @@ import lautaroimg from '../../assets/Lautaro1.png'
 /* import { Link } from "react-router-dom"; */
 import './Intro.css'
 import { motion } from 'framer-motion'
-import About from './About'
 
 const Intro = () => {
 
@@ -32,9 +31,6 @@ const Intro = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 2.0 }}
             >"Me encanta formar parte del proceso y crear aquellas cosas que las personas terminan disfrutando al final del día."</motion.p>
-            <div className="aboutmobile">
-                <About />
-            </div>
         </div>
     </div>)
 }
