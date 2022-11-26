@@ -3,18 +3,19 @@ import './About.css'
 import { motion } from "framer-motion";
 import relampago from '../../assets/mern2.png'
 import { Link } from 'react-router-dom'
+import resume from '../../assets/CV-Lautaro-Lesniewicz.pdf'
 
 const About = () => {
     return (
-        <motion.div className="conocemediv">
+        <div className="conocemediv">
             <motion.div className="knowmeDIV"
-                initial={{ opacity: 0, y: 200 }}
+                initial={{ opacity: 0, y: 300 }}
                 transition={{ delay: 0, duration:0.8 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}>
                 <hr className="barra" />
-                <motion.h4 className="knowme">
-                    Te invito a conocerme</motion.h4>
+                <h4 className="knowme">
+                    Te invito a conocerme</h4>
                 <hr className="barra" />
             </motion.div>
 
@@ -60,12 +61,12 @@ const About = () => {
                         </div>
                         <div className="botonesAbout">
                         <Link to='/About' className="botonAbout">Saber más</Link>
-                        <Link to='/Contact' className="botonAbout">Ver mi CV!</Link>
+                        <a className="botonAbout" href={resume} target="_blank" rel="noreferrer noopener">Ver mi CV!</a>
                         </div>
                     </div>
                 </div>
             </motion.div>
-        </motion.div>
+        </div>
     )
 }
 
