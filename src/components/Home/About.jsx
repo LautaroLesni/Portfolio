@@ -60,7 +60,7 @@ const About = () => {
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop"/>
                         </div>
                         <div className="botonesAbout">
-                        <Link to='/About' className="botonAbout">Saber más</Link>
+                        <Link to='/About' className="botonAbout">Conoceme más!</Link>
                         <a className="botonAbout" href={resume} target="_blank" rel="noreferrer noopener">Ver mi CV!</a>
                         </div>
                     </div>
