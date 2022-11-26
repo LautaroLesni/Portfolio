@@ -21,6 +21,7 @@ const Projects = () => {
             <div className={s.projectscardsDIV}>
             {projectsdb?.map(project => (
             <ProjectCards
+            key={project.deploy}
             name={project.name}
             img={project.img}
             description={project.description}

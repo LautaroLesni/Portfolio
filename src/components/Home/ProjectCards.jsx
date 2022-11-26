@@ -17,7 +17,7 @@ const ProjectCards = ({name, img, description, github, deploy, technologies}) =>
             <div className={s.projectBody}>
                 <ul>
                     {technologies?.map(tech=>
-                    <li>{tech}</li>)}
+                    <li key={tech}>{tech}</li>)}
                 </ul>
                 <p>{description}</p>
                 <div className={s.projecticonsDIV}>
