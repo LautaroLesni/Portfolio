@@ -63,3 +63,46 @@
     align-items: center;
     margin-top: 100px;
 }
+@media screen and (max-width: 1400px) {
+    .skillscontainer{
+        width: 70%;
+    }
+    .skillscontainertwo{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .skillscontainer{
+        width: 80%;
+        height: 450px;
+    }
+    .skillscontainertwo{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .generalDIV{
+        margin-top: 0px;
+    }
+    .skillscontainer{
+        width: 90%;
+        height: 350px;
+    }
+    .skillscontainertwo{
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+    .skillscontainer li{
+        font-size: 15px;
+        margin: 15px;
+    }
+    .skillimg{
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+    }
+    .whoami h4{
+        font-size: 25px;
+    }
+}

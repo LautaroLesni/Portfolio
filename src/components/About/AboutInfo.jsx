@@ -1,7 +1,7 @@
 import React from "react";
 import s from './AboutInfo.module.css'
 import { motion } from "framer-motion";
-import lautarolesniewicz from '../../assets/lautarolesniewicz.png'
+import lautarolesniewicz from '../../assets/lautarolesniewicz3.png'
 import resume from '../../assets/CV-Lautaro-Lesniewicz.pdf'
 import { FiChevronRight } from "react-icons/fi";
 

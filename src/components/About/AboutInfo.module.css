@@ -70,3 +70,50 @@
     font-weight: 400;
     color: #4e4232;
 }
+@media screen and (max-width: 1600px) {
+    .contenedorgeneral{
+        display: flex;
+        width: 75%;
+        gap: 100px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .contenedorgeneral{
+        display: flex;
+        width: 85%;
+        gap: 100px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .contenedorgeneral{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgcontenedor{
+        width: 70%;
+    }
+    .aboutme h1{
+        font-size:50px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .aboutme{
+        height: 170px;
+    }
+    .aboutme h1{
+        font-size: 20px;
+    }
+    .imgcontenedor{
+        width: 90%;
+    }
+    .aboutme h1{
+        font-size:40px;
+    }
+    .whoami h4{
+        font-size: 25px;
+    }
+    .info{
+        font-size: 18px;
+    }
+}
