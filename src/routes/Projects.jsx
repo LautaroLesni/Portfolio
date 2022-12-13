@@ -1,14 +1,13 @@
 import React from "react";
 import Navbar from '../components/Navbar/Navbar'
-import underconstruction from '../assets/underconstruction2.png'
-
+import Proyectos from '../components/Projects/Projects'
+import Footer from '../components/Footer/Footer'
 const Projects = () =>{
     return (
         <div>
             <Navbar />
-            <div className="enconstruccionDIV">
-            <img src={underconstruction} alt='underconstruction'/>
-            </div>
+            <Proyectos />
+            <Footer />
         </div>
     )
 }
